@@ -120,7 +120,7 @@ const closeModal = () => {
             <form className="form" onSubmit={handleSubmit(onSubmit)} noValidate>
             {formFields.map((field) => (
               <div key={field.name}>
-                <label htmlFor={field.name}>{field.label}</label>
+                <label htmlfor={field.name}>{field.label}</label>
                 <input
                 className="form-control"
                   type={field.type}
